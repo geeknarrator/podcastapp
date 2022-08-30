@@ -55,7 +55,7 @@ public class ProductService {
     }
 
     private Product sampleProductForId(String productId) {
-        if (productId.startsWith("GN1")) {
+        if (productId.startsWith("GN11")) {
             return Product.builder()
                     .id(productId)
                     .name("Sample product GN1 " + productId.substring(2))
